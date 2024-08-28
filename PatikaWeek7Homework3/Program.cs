@@ -34,8 +34,6 @@ namespace PatikaWeek7Homework3
             }
 
 
-
-
             //İlk listede bulunan komedi dizilerinden yeni bir liste oluşturuluyor..
 
             List<SeriesNew> seriesNews = seriesList.Where(s=>s.Genre.ToLower().Contains("komedi"))
